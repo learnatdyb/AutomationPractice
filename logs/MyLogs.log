@@ -1,0 +1,142 @@
+[INFO ] 2020-10-24 19:09:21.395 [main] RunTest - Website luanched successfully
+[DEBUG] 2020-10-24 19:09:21.408 [main] RunTest - Website luanched successfully
+[ERROR] 2020-10-24 19:09:21.408 [main] RunTest - website not launched
+[FATAL] 2020-10-24 19:09:21.409 [main] RunTest - website not launched
+[INFO ] 2020-10-24 19:10:39.211 [main] RunTest - Website luanched successfully
+[DEBUG] 2020-10-24 19:10:39.219 [main] RunTest - Website luanched successfully
+[ERROR] 2020-10-24 19:10:39.219 [main] RunTest - website not launched
+[FATAL] 2020-10-24 19:10:39.220 [main] RunTest - website not launched
+[INFO ] 2020-10-24 19:11:56.129 [main] RunTest - Website luanched successfully
+[DEBUG] 2020-10-24 19:11:56.139 [main] RunTest - Website luanched successfully
+[ERROR] 2020-10-24 19:11:56.140 [main] RunTest - website not launched
+[FATAL] 2020-10-24 19:11:56.140 [main] RunTest - website not launched
+[INFO ] 2020-10-24 19:12:39.782 [main] RunTest - Website luanched successfully
+[DEBUG] 2020-10-24 19:12:39.786 [main] RunTest - Website luanched successfully
+[ERROR] 2020-10-24 19:12:39.786 [main] RunTest - website not launched
+[FATAL] 2020-10-24 19:12:39.786 [main] RunTest - website not launched
+[INFO ] 2020-10-24 19:12:43.800 [main] RunTest - printed two
+[INFO ] 2020-10-25 09:06:02.624 [main] RunTest - Website luanched successfully
+[DEBUG] 2020-10-25 09:06:02.667 [main] RunTest - Website luanched successfully
+[ERROR] 2020-10-25 09:06:02.667 [main] RunTest - website not launched
+[FATAL] 2020-10-25 09:06:02.668 [main] RunTest - website not launched
+[INFO ] 2020-10-25 09:41:24.493 [main] RunTest - printed two
+[INFO ] 2020-10-25 09:45:05.673 [main] RunTest - printed two
+[INFO ] 2020-10-25 09:49:05.146 [main] RunTest - printed two
+[INFO ] 2020-10-25 09:52:26.821 [main] RunTest - Website luanched successfully
+[DEBUG] 2020-10-25 09:52:26.825 [main] RunTest - Website luanched successfully
+[ERROR] 2020-10-25 09:52:26.825 [main] RunTest - website not launched
+[FATAL] 2020-10-25 09:52:26.825 [main] RunTest - website not launched
+[INFO ] 2020-10-25 09:52:30.989 [main] RunTest - printed two
+[INFO ] 2020-10-25 09:53:35.571 [main] RunTest - printed two
+[INFO ] 2020-10-25 10:23:53.861 [main] RunTest - Website luanched successfully
+[DEBUG] 2020-10-25 10:23:53.866 [main] RunTest - Website luanched successfully
+[ERROR] 2020-10-25 10:23:53.866 [main] RunTest - website not launched
+[FATAL] 2020-10-25 10:23:53.866 [main] RunTest - website not launched
+[INFO ] 2020-10-25 10:23:58.089 [main] RunTest - printed two
+[INFO ] 2020-10-25 10:29:06.561 [main] RunTest - Website luanched successfully
+[DEBUG] 2020-10-25 10:29:06.568 [main] RunTest - Website luanched successfully
+[ERROR] 2020-10-25 10:29:06.569 [main] RunTest - website not launched
+[FATAL] 2020-10-25 10:29:06.569 [main] RunTest - website not launched
+[INFO ] 2020-10-25 10:29:10.680 [main] RunTest - printed two
+[INFO ] 2020-10-26 12:14:20.546 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-26 12:14:23.903 [main] RunTest - printed two
+[INFO ] 2020-10-26 12:17:17.884 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-26 12:17:21.299 [main] RunTest - printed two
+[INFO ] 2020-10-26 12:21:27.917 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-26 12:21:31.277 [main] RunTest - printed two
+[INFO ] 2020-10-26 12:24:36.520 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-26 12:24:40.503 [main] RunTest - printed two
+[INFO ] 2020-10-26 12:27:55.794 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-26 12:27:59.884 [main] RunTest - printed two
+[INFO ] 2020-10-26 12:30:59.262 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-26 12:31:03.352 [main] RunTest - printed two
+[INFO ] 2020-10-26 14:37:45.125 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-26 14:37:45.160 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-26 14:40:54.638 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-26 14:40:54.663 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-26 14:42:51.839 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-26 14:42:51.877 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-26 14:42:56.183 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-26 14:44:35.432 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-26 14:44:35.453 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-26 14:44:39.548 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-26 14:46:00.142 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-26 14:46:00.157 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-26 14:46:09.213 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-26 14:47:04.501 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-26 14:47:04.512 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-26 14:47:13.742 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-26 14:48:34.231 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-26 14:48:34.277 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-26 14:48:38.434 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-26 14:50:04.216 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-26 14:50:04.252 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-26 14:50:30.238 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-26 14:52:36.595 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-26 14:52:36.640 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-26 14:53:54.335 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-26 14:53:54.386 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-26 14:54:52.838 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-26 14:54:52.880 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-26 14:55:11.634 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 09:27:33.476 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 09:27:33.569 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-27 09:27:49.033 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 09:29:09.495 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 09:29:09.538 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-27 09:29:26.485 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 09:50:30.268 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 09:50:30.310 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-27 09:50:45.932 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 09:53:36.066 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 09:53:36.080 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-27 09:53:51.212 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 09:54:55.658 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 09:54:55.669 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-27 09:55:11.977 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 12:05:53.125 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 12:05:53.142 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-27 12:06:09.216 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 12:07:26.179 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 12:07:26.198 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-27 12:07:42.255 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 12:24:27.565 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 12:24:43.491 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 12:26:03.202 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 12:26:18.640 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 12:30:32.724 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 12:30:48.361 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 12:32:49.834 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 12:33:05.135 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 12:35:10.806 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 12:35:25.947 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 12:37:39.261 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 12:37:39.281 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-27 12:37:54.422 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 12:49:10.188 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 12:49:10.204 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-27 12:49:24.908 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 13:00:22.429 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 13:00:22.452 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-27 13:00:39.901 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 13:05:28.669 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 13:05:28.733 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-27 13:05:48.918 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 13:10:23.931 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 13:10:23.961 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-27 13:10:39.029 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 13:15:26.498 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 13:15:26.544 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-27 13:15:44.093 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 18:30:09.160 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 18:30:09.173 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-27 18:30:25.495 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 18:31:13.465 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 18:31:13.493 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-27 18:31:28.402 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 18:32:42.622 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 18:32:42.638 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-27 18:32:57.312 [main] RunTest - First Tab text verified successfully
+[INFO ] 2020-10-27 20:52:57.384 [main] RunTest - Website luanched successfully
+[INFO ] 2020-10-27 20:52:57.468 [main] RunTest - Title verified successfully
+[INFO ] 2020-10-27 20:53:12.842 [main] RunTest - First Tab text verified successfully
