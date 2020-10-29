@@ -37,5 +37,11 @@ public class RunTest extends Base {
 logger.info("First Tab text verified successfully");
 
 	}
+	
+	@Test(retryAnalyzer=util.RetryAnalyzer.class)
+	public void three()
+	{
+		Assert.assertTrue(true);
+	}
 
 }
