@@ -1,0 +1,23 @@
+git status 
+
+git branch listners
+
+git checkout listners
+
+
+git add -A
+
+
+git commit -m "adding listerners"
+
+git push -u origin listners
+
+git checkout master
+
+git merge listeners
+
+git push -u origin master
+
+git branch -d listners
+
+git push origin --delete listners
