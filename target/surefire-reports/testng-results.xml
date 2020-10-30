@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-28T14:29:32 IST" name="Suite" finished-at="2020-10-28T14:30:09 IST" duration-ms="36561">
+  <suite started-at="2020-10-29T12:24:01 IST" name="Suite" finished-at="2020-10-29T12:24:39 IST" duration-ms="38033">
     <groups>
     </groups>
-    <test started-at="2020-10-28T14:29:32 IST" name="Test" finished-at="2020-10-28T14:30:09 IST" duration-ms="36561">
+    <test started-at="2020-10-29T12:24:01 IST" name="Test" finished-at="2020-10-29T12:24:39 IST" duration-ms="38033">
       <class name="TestRunner.RunTest">
-        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-28T14:29:32 IST" name="setExtentReport" finished-at="2020-10-28T14:29:32 IST" duration-ms="188" status="PASS">
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-29T12:24:01 IST" name="setExtentReport" finished-at="2020-10-29T12:24:01 IST" duration-ms="139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtentReport -->
-        <test-method is-config="true" signature="lunchbrowser()[pri:0, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-28T14:29:32 IST" name="lunchbrowser" finished-at="2020-10-28T14:29:37 IST" duration-ms="4681" status="PASS">
+        <test-method is-config="true" signature="lunchbrowser()[pri:0, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-29T12:24:01 IST" name="lunchbrowser" finished-at="2020-10-29T12:24:06 IST" duration-ms="4511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchbrowser -->
-        <test-method signature="three()[pri:0, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-28T14:29:37 IST" name="three" finished-at="2020-10-28T14:29:37 IST" duration-ms="9" status="PASS">
+        <test-method signature="three()[pri:0, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-29T12:24:06 IST" name="three" finished-at="2020-10-29T12:24:06 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- three -->
-        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-28T14:29:37 IST" name="tear" finished-at="2020-10-28T14:29:38 IST" duration-ms="693" status="PASS">
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-29T12:24:06 IST" name="tear" finished-at="2020-10-29T12:24:07 IST" duration-ms="613" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,45 +30,184 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->
-        <test-method is-config="true" signature="lunchbrowser()[pri:0, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-28T14:29:38 IST" name="lunchbrowser" finished-at="2020-10-28T14:29:41 IST" duration-ms="3407" status="PASS">
+        <test-method is-config="true" signature="lunchbrowser()[pri:0, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-29T12:24:07 IST" name="lunchbrowser" finished-at="2020-10-29T12:24:10 IST" duration-ms="3271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchbrowser -->
-        <test-method signature="launchwebsite()[pri:1, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-28T14:29:41 IST" name="launchwebsite" finished-at="2020-10-28T14:29:52 IST" duration-ms="10713" status="PASS">
+        <test-method signature="launchwebsite()[pri:1, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-29T12:24:10 IST" name="launchwebsite" finished-at="2020-10-29T12:24:11 IST" duration-ms="962" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AIR8I1F', ip: '10.116.238.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MAHEND~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59808}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 96ace8da27e340bce0d6340d4ea2c828]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AIR8I1F', ip: '10.116.238.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MAHEND~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59808}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 96ace8da27e340bce0d6340d4ea2c828
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at TestDefenition.AutoPracticeFunctions.launchsite(AutoPracticeFunctions.java:25)
+at TestRunner.RunTest.launchwebsite(RunTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchwebsite -->
-        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-28T14:29:52 IST" name="tear" finished-at="2020-10-28T14:29:52 IST" duration-ms="676" status="PASS">
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-29T12:24:11 IST" name="tear" finished-at="2020-10-29T12:24:12 IST" duration-ms="732" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=launchwebsite status=SUCCESS method=RunTest.launchwebsite()[pri:1, instance:TestRunner.RunTest@69453e37] output={null}]]]>
+                <![CDATA[[TestResult name=launchwebsite status=FAILURE method=RunTest.launchwebsite()[pri:1, instance:TestRunner.RunTest@69453e37] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->
-        <test-method is-config="true" signature="lunchbrowser()[pri:0, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-28T14:29:52 IST" name="lunchbrowser" finished-at="2020-10-28T14:29:56 IST" duration-ms="3467" status="PASS">
+        <test-method is-config="true" signature="lunchbrowser()[pri:0, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-29T12:24:12 IST" name="lunchbrowser" finished-at="2020-10-29T12:24:15 IST" duration-ms="3358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchbrowser -->
-        <test-method signature="verify_tabs_text()[pri:2, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-28T14:29:56 IST" name="verify_tabs_text" finished-at="2020-10-28T14:30:07 IST" duration-ms="11371" status="PASS">
+        <test-method signature="verify_tabs_text()[pri:2, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-29T12:24:15 IST" name="verify_tabs_text" finished-at="2020-10-29T12:24:38 IST" duration-ms="23225" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AIR8I1F', ip: '10.116.238.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MAHEND~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59823}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 55af9ab13497fc42969dfd4d1d4374e4
+*** Element info: {Using=xpath, value=//ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AIR8I1F', ip: '10.116.238.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MAHEND~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59823}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 55af9ab13497fc42969dfd4d1d4374e4
+*** Element info: {Using=xpath, value=//ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+at TestDefenition.AutoPracticeFunctions.verifytabs(AutoPracticeFunctions.java:32)
+at TestRunner.RunTest.verify_tabs_text(RunTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_tabs_text -->
-        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-28T14:30:07 IST" name="tear" finished-at="2020-10-28T14:30:08 IST" duration-ms="650" status="PASS">
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-29T12:24:38 IST" name="tear" finished-at="2020-10-29T12:24:39 IST" duration-ms="571" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_tabs_text status=SUCCESS method=RunTest.verify_tabs_text()[pri:2, instance:TestRunner.RunTest@69453e37] output={null}]]]>
+                <![CDATA[[TestResult name=verify_tabs_text status=FAILURE method=RunTest.verify_tabs_text()[pri:2, instance:TestRunner.RunTest@69453e37] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-28T14:30:08 IST" name="endTest" finished-at="2020-10-28T14:30:09 IST" duration-ms="651" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:TestRunner.RunTest@69453e37]" started-at="2020-10-29T12:24:39 IST" name="endTest" finished-at="2020-10-29T12:24:39 IST" duration-ms="594" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

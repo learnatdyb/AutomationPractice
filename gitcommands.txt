@@ -1,5 +1,9 @@
 git status 
 
+git init - for creating local repository [Only First Time]
+
+git remote add origin "git url" - to establish connection between local and remote repository. [Only First Time]
+
 git branch listners
 
 git checkout listners
@@ -7,6 +11,9 @@ git checkout listners
 
 git add -A
 
+git config --global user.name "smahendrancs" [Only First Time]
+
+git config --global user.email "smahendrancs@gmail.com" [Only First Time]
 
 git commit -m "adding listerners"
 

@@ -34,14 +34,14 @@ public class Base {
 	   public void setExtentReport()
 	   {
 		   report = new ExtentReports(System.getProperty("user.dir")+"\\ExtentReportResults.html");
-		  
+		   test = report.startTest("AutomationPracticeWebSite");
 	   }
 	
 	//Logger logger;
 	@BeforeMethod
 	public void lunchbrowser() throws InterruptedException
 	{
-		 test = report.startTest("AutomationPracticeWebSite");
+		 
 		logger=LogManager.getLogger(RunTest.class);
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mahendran\\eclipse-workspace\\AutomationPractice\\chromedriver\\chromedriver.exe");
 	driver = new ChromeDriver();
