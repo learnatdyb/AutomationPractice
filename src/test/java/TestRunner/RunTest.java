@@ -13,7 +13,7 @@ public class RunTest extends Base {
 	@Test(priority =1)
 		public void launchwebsite() throws InterruptedException
 	{	 
-	
+		test = report.createTest("launchwebsite");
 		AutoPracticeFunctions a= new AutoPracticeFunctions(driver);
 		
 		a.launchsite();
@@ -30,10 +30,10 @@ public class RunTest extends Base {
 	@Test(priority=2)
 	public void verify_tabs_text() throws InterruptedException
 	{
-	
+		test = report.createTest("verify_tabs_text");
 		AutoPracticeFunctions b= new AutoPracticeFunctions(driver);
 		b.launchsite();
-		Assert.assertEquals(b.verifytabs().get(0).getText(), "WOMEN");
+		Assert.assertEquals(b.verifytabs().get(0).getText(), "WOMENx");
 logger.info("First Tab text verified successfully");
 
 	}
@@ -41,6 +41,7 @@ logger.info("First Tab text verified successfully");
 	@Test(retryAnalyzer=util.RetryAnalyzer.class)
 	public void three()
 	{
+		test = report.createTest("three");
 		Assert.assertTrue(true);
 	}
 
