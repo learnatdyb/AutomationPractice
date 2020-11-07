@@ -2,4 +2,5 @@ util\ReadConfig.class
 TestDefenition\AutoPracticeFunctions.class
 util\RetryAnalyzer.class
 TestRunner\RunTest.class
+ObjectRepository\ObjectRepo.class
 TestRunner\Base.class

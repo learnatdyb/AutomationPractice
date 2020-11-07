@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import ObjectRepository.ObjectRepo;
 import TestRunner.Base;
 
 
@@ -29,7 +30,7 @@ public class AutoPracticeFunctions {
 	
 	public List<WebElement> verifytabs()
 	{
-		List<WebElement> tabs = driver.findElements(By.xpath("//ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li"));
+		List<WebElement> tabs = driver.findElements(ObjectRepo.Htabs);
 
 System.out.println(tabs.size());
 

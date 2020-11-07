@@ -9,7 +9,6 @@
           <include name="endTest"/>
           <include name="lunchbrowser"/>
           <include name="tear"/>
-          <include name="launchwebsite"/>
           <include name="verify_tabs_text"/>
         </methods>
       </class> <!-- TestRunner.RunTest -->
