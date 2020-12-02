@@ -1,117 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-01T11:41:36 IST" name="Default suite" finished-at="2020-11-01T11:42:20 IST" duration-ms="44511">
+  <suite started-at="2020-11-22T11:59:29 IST" name="Default suite" finished-at="2020-11-22T12:01:53 IST" duration-ms="143348">
     <groups>
     </groups>
-    <test started-at="2020-11-01T11:41:36 IST" name="Default test" finished-at="2020-11-01T11:42:20 IST" duration-ms="44511">
+    <test started-at="2020-11-22T11:59:29 IST" name="Default test" finished-at="2020-11-22T12:01:53 IST" duration-ms="143348">
       <class name="TestRunner.RunTest">
-        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:TestRunner.RunTest@2f54a33d]" started-at="2020-11-01T11:41:36 IST" name="setExtentReport" finished-at="2020-11-01T11:41:36 IST" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:TestRunner.RunTest@65b3f4a4]" started-at="2020-11-22T11:59:29 IST" name="setExtentReport" finished-at="2020-11-22T11:59:29 IST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtentReport -->
-        <test-method is-config="true" signature="lunchbrowser()[pri:0, instance:TestRunner.RunTest@2f54a33d]" started-at="2020-11-01T11:41:36 IST" name="lunchbrowser" finished-at="2020-11-01T11:41:40 IST" duration-ms="4239" status="PASS">
+        <test-method is-config="true" signature="lunchbrowser()[pri:0, instance:TestRunner.RunTest@65b3f4a4]" started-at="2020-11-22T11:59:29 IST" name="lunchbrowser" finished-at="2020-11-22T11:59:33 IST" duration-ms="4045" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchbrowser -->
-        <test-method signature="three()[pri:0, instance:TestRunner.RunTest@2f54a33d]" started-at="2020-11-01T11:41:40 IST" name="three" finished-at="2020-11-01T11:41:40 IST" duration-ms="7" status="PASS">
+        <test-method signature="assert_product()[pri:0, instance:TestRunner.RunTest@65b3f4a4]" started-at="2020-11-22T11:59:33 IST" name="assert_product" finished-at="2020-11-22T12:00:18 IST" duration-ms="44911" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- three -->
-        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:TestRunner.RunTest@2f54a33d]" started-at="2020-11-01T11:41:40 IST" name="tear" finished-at="2020-11-01T11:41:41 IST" duration-ms="602" status="PASS">
+        </test-method> <!-- assert_product -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:TestRunner.RunTest@65b3f4a4]" started-at="2020-11-22T12:00:18 IST" name="tear" finished-at="2020-11-22T12:00:19 IST" duration-ms="774" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=three status=SUCCESS method=RunTest.three()[pri:0, instance:TestRunner.RunTest@2f54a33d] output={null}]]]>
+                <![CDATA[[TestResult name=assert_product status=SUCCESS method=RunTest.assert_product()[pri:0, instance:TestRunner.RunTest@65b3f4a4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->
-        <test-method is-config="true" signature="lunchbrowser()[pri:0, instance:TestRunner.RunTest@2f54a33d]" started-at="2020-11-01T11:41:41 IST" name="lunchbrowser" finished-at="2020-11-01T11:41:44 IST" duration-ms="3148" status="PASS">
+        <test-method is-config="true" signature="lunchbrowser()[pri:0, instance:TestRunner.RunTest@65b3f4a4]" started-at="2020-11-22T12:00:19 IST" name="lunchbrowser" finished-at="2020-11-22T12:00:23 IST" duration-ms="3514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchbrowser -->
-        <test-method signature="launchwebsite()[pri:1, instance:TestRunner.RunTest@2f54a33d]" started-at="2020-11-01T11:41:44 IST" name="launchwebsite" finished-at="2020-11-01T11:41:57 IST" duration-ms="13436" status="PASS">
+        <test-method signature="assertionofblouseitems()[pri:0, instance:TestRunner.RunTest@65b3f4a4]" started-at="2020-11-22T12:00:23 IST" name="assertionofblouseitems" finished-at="2020-11-22T12:00:42 IST" duration-ms="19725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertionofblouseitems -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:TestRunner.RunTest@65b3f4a4]" started-at="2020-11-22T12:00:42 IST" name="tear" finished-at="2020-11-22T12:00:43 IST" duration-ms="696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=assertionofblouseitems status=SUCCESS method=RunTest.assertionofblouseitems()[pri:0, instance:TestRunner.RunTest@65b3f4a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="lunchbrowser()[pri:0, instance:TestRunner.RunTest@65b3f4a4]" started-at="2020-11-22T12:00:43 IST" name="lunchbrowser" finished-at="2020-11-22T12:00:46 IST" duration-ms="3262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchbrowser -->
+        <test-method signature="click_on_women_tab()[pri:0, instance:TestRunner.RunTest@65b3f4a4]" started-at="2020-11-22T12:00:46 IST" name="click_on_women_tab" finished-at="2020-11-22T12:01:06 IST" duration-ms="19130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_women_tab -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:TestRunner.RunTest@65b3f4a4]" started-at="2020-11-22T12:01:06 IST" name="tear" finished-at="2020-11-22T12:01:06 IST" duration-ms="736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=click_on_women_tab status=SUCCESS method=RunTest.click_on_women_tab()[pri:0, instance:TestRunner.RunTest@65b3f4a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="lunchbrowser()[pri:0, instance:TestRunner.RunTest@65b3f4a4]" started-at="2020-11-22T12:01:06 IST" name="lunchbrowser" finished-at="2020-11-22T12:01:09 IST" duration-ms="3216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchbrowser -->
+        <test-method signature="launchwebsite()[pri:1, instance:TestRunner.RunTest@65b3f4a4]" started-at="2020-11-22T12:01:09 IST" name="launchwebsite" finished-at="2020-11-22T12:01:34 IST" duration-ms="24971" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchwebsite -->
-        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:TestRunner.RunTest@2f54a33d]" started-at="2020-11-01T11:41:57 IST" name="tear" finished-at="2020-11-01T11:41:58 IST" duration-ms="917" status="PASS">
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:TestRunner.RunTest@65b3f4a4]" started-at="2020-11-22T12:01:34 IST" name="tear" finished-at="2020-11-22T12:01:35 IST" duration-ms="707" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=launchwebsite status=SUCCESS method=RunTest.launchwebsite()[pri:1, instance:TestRunner.RunTest@2f54a33d] output={null}]]]>
+                <![CDATA[[TestResult name=launchwebsite status=SUCCESS method=RunTest.launchwebsite()[pri:1, instance:TestRunner.RunTest@65b3f4a4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->
-        <test-method is-config="true" signature="lunchbrowser()[pri:0, instance:TestRunner.RunTest@2f54a33d]" started-at="2020-11-01T11:41:58 IST" name="lunchbrowser" finished-at="2020-11-01T11:42:02 IST" duration-ms="3290" status="PASS">
+        <test-method is-config="true" signature="lunchbrowser()[pri:0, instance:TestRunner.RunTest@65b3f4a4]" started-at="2020-11-22T12:01:35 IST" name="lunchbrowser" finished-at="2020-11-22T12:01:39 IST" duration-ms="3366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchbrowser -->
-        <test-method signature="verify_tabs_text()[pri:2, instance:TestRunner.RunTest@2f54a33d]" started-at="2020-11-01T11:42:02 IST" name="verify_tabs_text" finished-at="2020-11-01T11:42:15 IST" duration-ms="13096" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [WOMENx] but found [WOMEN]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [WOMENx] but found [WOMEN]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at org.testng.Assert.assertEquals(Assert.java:585)
-at TestRunner.RunTest.verify_tabs_text(RunTest.java:36)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verify_tabs_text()[pri:2, instance:TestRunner.RunTest@65b3f4a4]" started-at="2020-11-22T12:01:39 IST" name="verify_tabs_text" finished-at="2020-11-22T12:01:52 IST" duration-ms="13167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_tabs_text -->
-        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:TestRunner.RunTest@2f54a33d]" started-at="2020-11-01T11:42:15 IST" name="tear" finished-at="2020-11-01T11:42:20 IST" duration-ms="5227" status="PASS">
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:TestRunner.RunTest@65b3f4a4]" started-at="2020-11-22T12:01:52 IST" name="tear" finished-at="2020-11-22T12:01:52 IST" duration-ms="631" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_tabs_text status=FAILURE method=RunTest.verify_tabs_text()[pri:2, instance:TestRunner.RunTest@2f54a33d] output={null}]]]>
+                <![CDATA[[TestResult name=verify_tabs_text status=SUCCESS method=RunTest.verify_tabs_text()[pri:2, instance:TestRunner.RunTest@65b3f4a4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:TestRunner.RunTest@2f54a33d]" started-at="2020-11-01T11:42:20 IST" name="endTest" finished-at="2020-11-01T11:42:20 IST" duration-ms="286" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:TestRunner.RunTest@65b3f4a4]" started-at="2020-11-22T12:01:52 IST" name="endTest" finished-at="2020-11-22T12:01:53 IST" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

@@ -49,6 +49,7 @@ public class Base {
 		   
 		   htmlReporter.config().setDocumentTitle("Automation Report");
 		   
+		   
 		   report = new ExtentReports();
 		   report.attachReporter(htmlReporter);
 		   

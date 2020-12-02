@@ -5,11 +5,11 @@
     <classes>
       <class name="TestRunner.RunTest">
         <methods>
+          <include name="click_on_women_tab"/>
           <include name="setExtentReport"/>
           <include name="endTest"/>
           <include name="lunchbrowser"/>
           <include name="tear"/>
-          <include name="verify_tabs_text"/>
         </methods>
       </class> <!-- TestRunner.RunTest -->
     </classes>
